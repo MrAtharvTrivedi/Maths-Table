@@ -2,16 +2,20 @@
 # This is a maths table generator program built using python
 
 
+# Starting a while loop
+while True:
+
 # Taking input from user and storing it inside variable num
-num = input("Enter the number whose mathematics table you want to print:")
+    num = input("Enter the number whose mathematics table you want to print:")
 
 # Checking if the user has entered only a number or anything else
-if num.isdigit():
-    num = int(num)  # Typecasting the variable num to integer
-    for x in range(1, 11):
-        print(f"{num} x {x} = {num*x}")
-else:
-    print("Kindly enter a valid number")
+    if num.isdigit():
+        num = int(num)  # Typecasting the variable num to integer
+        for x in range(1, 11):
+            print(f"{num} x {x} = {num*x}")
+        quit()  # Quitting the program after the table is printed
+    else:
+        print("Kindly enter a valid number")
 
 
 # The same program can be built using while loop
