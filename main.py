@@ -3,7 +3,7 @@
 
 
 # Taking input from user and storing it inside variable num
-num = input("Enter the number whose mathematics table you want to print")
+num = input("Enter the number whose mathematics table you want to print:")
 
 # Checking if the user has entered only a number or anything else
 if num.isdigit():
