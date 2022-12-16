@@ -5,8 +5,7 @@ This Multiplication Table Generator GUI App is built using Python, and a well kn
 To run this app on your PC or Laptop, install CustomTkinter Library.
 
 To install CusttomTkinter Library:
-
-Open Terminal or Windows Powershell 
-Type "pip install customtkinter" and then hit enter
+1. Open Terminal or Windows Powershell 
+2. Type "pip install customtkinter" and hit enter, it will automatically install the Library for you
 
 
